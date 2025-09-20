@@ -1,0 +1,19 @@
+# Logo Placeholder
+
+To add your logo to FormatFusion:
+
+1. Create or obtain a logo image file
+2. Name it "logo.png" 
+3. Place it in this directory (resources/logo.png)
+4. Recommended specifications:
+   - Format: PNG with transparent background
+   - Size: 64x64 or 128x128 pixels
+   - Style: Should work well on dark backgrounds
+   - Colors: Consider using light colors or white for visibility
+
+The application will automatically detect and use your logo in:
+- The main drag-and-drop area
+- Window title bar (if implemented)
+- About dialog (if implemented)
+
+If no logo is found, the application will display a fallback icon (🔄).
